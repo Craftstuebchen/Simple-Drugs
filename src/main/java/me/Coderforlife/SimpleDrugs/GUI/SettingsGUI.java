@@ -37,7 +37,7 @@ public class SettingsGUI {
         }
 
         for(int i = 0; i < 9; i++) {
-            items.add(stack(Material.BLACK_STAINED_GLASS_PANE, false, "§7⇧ General Settings", Arrays.asList("§7⇩ Bag Settings")));
+            items.add(stack(Material.BLACK_STAINED_GLASS_PANE, false, "§7⇧ General Settings", List.of("§7⇩ Bag Settings")));
         }
 
         items.add(stack(Material.BOOK, Settings.BagOfDrugs_CanMove, "§6§lBag Movable" + enabledordisabled(Settings.BagOfDrugs_CanMove), Arrays.asList("§7If the player can move the bag in their Inventory", " ", clickto(Settings.BagOfDrugs_CanMove))));

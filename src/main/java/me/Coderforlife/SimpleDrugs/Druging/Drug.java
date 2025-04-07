@@ -26,7 +26,7 @@ import java.util.Locale;
 
 public class Drug {
 
-    private static HashMap<String, Drug> drugs = new HashMap<>();
+    private static final HashMap<String, Drug> drugs = new HashMap<>();
 
     private String name;
     private String displayname;
