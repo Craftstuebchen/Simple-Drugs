@@ -166,7 +166,7 @@ public class SettingsGUI {
         meta.setLore(lore);
         stack.setItemMeta(meta);
         if(ench)
-            stack.addUnsafeEnchantment(Enchantment.ARROW_FIRE, 1);
+            stack.addUnsafeEnchantment(Enchantment.FIRE_ASPECT, 1);
         return stack;
     }
 

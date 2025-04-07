@@ -4,7 +4,7 @@ author: xxCoderforlife
 prefix: SD
 softdepend: [ Vault,PlaceHolderAPI ]
 load: POSTWORLD
-api-version: 1.13
+api-version: 1.21
 website: https://www.spigotmc.org/resources/simple-drugs.9684/
 main: me.Coderforlife.SimpleDrugs.Main
 

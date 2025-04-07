@@ -87,7 +87,7 @@ public class Drug {
                 lore.add("§7Click to Use");
                 meta.setLore(lore);
                 result.setItemMeta(meta);
-                result.addUnsafeEnchantment(Enchantment.ARROW_FIRE, 1);
+                result.addUnsafeEnchantment(Enchantment.FIRE_ASPECT, 1);
 
                 /* Generate the Recipe */
                 JsonArray recipe = drug.getAsJsonArray("recipe");
