@@ -129,7 +129,7 @@ public class Drug implements SDCraftableItem {
         "&7- &oShift-Right-Click to see the recipe"));
     	im.setLore(lore);
     	is.setItemMeta(im);
-    	is.addUnsafeEnchantment(Enchantment.ARROW_FIRE, 1);
+    	is.addUnsafeEnchantment(Enchantment.FIRE_ASPECT, 1);
     	return is;
     }
     

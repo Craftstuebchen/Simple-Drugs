@@ -4,7 +4,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.annotation.Nullable;
 
 import org.bukkit.inventory.ItemStack;
 
@@ -106,7 +105,7 @@ public class DrugManager extends AbstractSDCraftableManager<Drug> {
 	 * @param item
 	 * @return Drug
 	 */
-	public Drug matchDrug(@Nullable ItemStack item) {
+	public Drug matchDrug(ItemStack item) {
 		if(isDrugItem(item)){
 			for(Drug drug : getItems().values()) {
 				if(!drug.getItem().isSimilar(item)) continue;
